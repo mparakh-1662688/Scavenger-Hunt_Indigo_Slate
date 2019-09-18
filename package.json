@@ -1,0 +1,39 @@
+{
+  "name": "Scavenger-Hunt",
+  "version": "1.0.0",
+  "description": "Node base application boilerplate.",
+  "main": "boot.js",
+  "scripts": {
+    "start": "node boot.js",
+    "foobar": "export NODE_ENV='development' && echo $NODE_ENV",
+    "test": "mocha test/ -C"
+  },
+  "author": "Mohneel Parakh",
+  "license": "MIT",
+  "dependencies": {
+    "atob": "^2.1.2",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^4.0.0",
+    "express": "^4.17.1",
+    "file-system": "^2.2.2",
+    "fs": "0.0.1-security",
+    "fs-extra": "^8.1.0",
+    "mongoose": "^5.6.11",
+    "node-webcam": "^0.5.0",
+    "nodemon": "^1.19.1",
+    "path": "^0.12.7",
+    "pi-camera": "^1.2.1",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4"
+  },
+  "devDependencies": {
+    "mocha": "^5.0.4",
+    "should": "^13.2.1",
+    "supertest": "^3.0.0"
+  },
+  "engines": {
+    "npm": ">=6.0.1",
+    "node": ">=10.1.0"
+  }
+}
